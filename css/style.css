@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+body{
+    background-color: black;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    background-image: url(.././images/icons/dark\ image.jpg);
+
+    }
+h1{
+    font-weight: bolder;
+    font-size: 100px;
+    padding-top: 10%;
+    text-decoration: double;
+    font-family: 'Bruno Ace SC', cursive;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    padding-top: 25%;
+    width: 33,33%;
+    padding-bottom: 50%;
+    padding: auto;
+    word-spacing: 20px;
+    list-style-type: none;
+}
+.nav-links{
+    padding: 10px 10px;
+    text-decoration: double;
+    font: bold;
+    position: relative;
+    z-index: 0;
+}
+.nav-links{
+    background-color: transparent;
+    color:white;
+    animation-name: stretch;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-delay: none;
+}
+a{
+ background-color: black;
+font-weight: bolder;
+color: white;
+}
+a:hover{
+    background-color:darkcyan;
+}
+.footer{
+    width: 100%;
+    left: 0;
+    background-color:darkcyan;
+    bottom: 0;
+    position: fixed;
+    font-weight: bolder;
+}
+@keyframes move{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.moving{
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: reverse;
+}
