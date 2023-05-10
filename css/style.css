@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
-body{
+.Landing{
     background-color: black;
     text-align: center;
     font-size: xx-large;
     color: white;
     background-image: url(.././images/icons/dark\ image.jpg);
-    height: 100px;
+    height: 500px;
 
     }
+section{
+    background-color: white;
+    color: darkcyan;
+}
 h1{
     font-weight: bolder;
     font-size: 100px;
@@ -32,12 +36,12 @@ li{
     padding: 10px 10px;
     text-decoration: double;
     font: bold;
-    position: relative;
+    position: sticky;
     z-index: 0;
 }
 .nav-links{
     background-color: transparent;
-    color:white;
+    color:w;
     animation-name: stretch;
     animation-duration: 3s;
     animation-direction: reverse;
@@ -60,12 +64,12 @@ a:hover{
 .footer{
     width: 100%;
     left: 0;
-    background-color:white;
+    background-image:url(../images/icons/dark\ image.jpg);
     bottom: 0;
     position: fixed;
     font-weight: bolder;
-    color: darkcyan
-;
+    color: white;
+    height: 50px;
 }
 @keyframes move{
     from{
@@ -78,8 +82,13 @@ a:hover{
 .moving{
     animation-name: move;
     animation-iteration-count: infinite;
-    animation-duration: 13s;
+    animation-duration: 15s;
     animation-direction: reverse;
+    font-size: large;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+}
+#Me{
+    color: darkcyan;
 }
 
 p{
@@ -116,7 +125,7 @@ p{
 .flip-card {
     background-color: transparent;
     width: 400px;
-    height: 500px;
+    height: 400px;
     padding-top: 10px;
     padding-left: 50px;
   }
@@ -128,7 +137,7 @@ p{
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px white;
   }
   
   .flip-card:hover .flip-card-inner {
@@ -143,14 +152,9 @@ p{
     backface-visibility: hidden;
   }
   
-  .flip-card-2-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
   .flip-card-back {
     background-color: transparent;
-    color: white;
+    color: black;
     transform: rotateY(180deg);
     font-family:'Bruno Ace SC', cursive;
     font-size: large; 
@@ -161,7 +165,7 @@ p{
     padding-top: 10%;
 }
 .col{
-    border: solid white;
+    border: solid darkcyan;
     border-bottom: transparent;
     font-family:'Bruno Ace SC', cursive;
     font-size: large; 
@@ -191,47 +195,80 @@ h2{
 .hov{
     animation-name: shake;
 }
-
-.flip-card-2 {
+.flip-card-3 {
     background-color: transparent;
-    width: 100%;
-    height: 300px;
+    width: 500px;
+    height: 100px;
     padding-top: 10px;
-    padding-left: 50px;
   }
   
-  .flip-card-2-inner {
+  .flip-card-3-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 white;
   }
   
-  .flip-card-2:hover .flip-card-2-inner {
+  .flip-card-3:hover .flip-card-3-inner {
     transform: rotateY(180deg);
   }
   
-  .flip-card-2-front, .flip-card-2-back {
+  .flip-card-3-front, .flip-card-3-back {
     position: absolute;
-    width: 100%;
+    width: 500px;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
   
-  .flip-card-2-front {
+  .flip-card-3-front {
     background-color:transparent;
-    color: white;
+    color: black;
   }
   
-  .flip-card-2-back {
+  .flip-card-3-back {
     background-color: transparent;
-    color: white;
+    color: black;
     transform: rotateY(180deg);
     font-family:'Bruno Ace SC', cursive;
     font-size: large; 
     text-align: left;
-  }
+  }  
+.comps{
+    color: black;
+    font-size: large;
+    height: 5px;
+    display: flex;
+    gap: 25%;
+    padding-bottom:18%;
+    background-color:darkcyan;
+}
+#About{
+    height: 600px;
+
+}
+.HTML{
+    color: white;
+    font-family:'Bruno Ace SC', cursive;
+}
+.CSS{
+    color: white;
+    font-family:'Bruno Ace SC', cursive ;
+}
+.JS{
+    color: white;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.Projects{
+    text-align: center;
+    padding-top: 5%;
+}
+.cards{
+    display: flex;
+    padding-top: 10%;
+    padding: 100px;
+    gap: 2%;
+}
