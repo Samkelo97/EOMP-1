@@ -1,524 +1,535 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
-.Landing{
-    background-color: black;
-    text-align: center;
-    font-size: xx-large;
-    color: white;
-    background-image: url(.././images/icons/dark\ image.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    font-family:'Bruno Ace SC', cursive ;
-
-    }
-section{
-    background-color: white;
-    color: darkcyan;
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+.Landing {
+  background-color: black;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  background-image: url(.././images/icons/dark\ image.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  font-family: "Bruno Ace SC", cursive;
 }
-.social-icons{
-    padding-top: 10%;
-    height: 100vh;
+section {
+  background-color: white;
+  color: darkcyan;
 }
-h1{
-    font-weight: bolder;
-    font-size: 100px;
-    padding-top: 5%;
-    text-decoration: double;
-    font-family: 'Bruno Ace SC', cursive;
-    box-shadow: 5px 2px 3px 2px darkcyan;
-    text-decoration: double;
+.social-icons {
+  padding-top: 10%;
+  height: 100vh;
 }
-span{
-    box-shadow: 2px 4px 3px 5px darkcyan;
+h1 {
+  font-weight: bolder;
+  font-size: 100px;
+  padding-top: 5%;
+  text-decoration: double;
+  font-family: "Bruno Ace SC", cursive;
+  box-shadow: 5px 2px 3px 2px darkcyan;
+  text-decoration: double;
 }
-#para{
-    box-shadow: 5px 4px 6px 5px darkcyan;
+span {
+  box-shadow: 2px 4px 3px 5px darkcyan;
 }
-
-ul{
-    list-style-type: none;
-}
-li{
-    display: inline;
-    padding-top: 25%;
-    width: 33,33%;
-    padding: auto;
-    word-spacing: 20px;
-    list-style-type: none;
-}
-.nav-links{
-    padding: 10px 10px;
-    text-decoration: double;
-    font: bold;
-    position: sticky;
-    z-index: 0;
-}
-.nav-links{
-    background-color: transparent;
-    color:w;
-    animation-name: stretch;
-    animation-duration: 3s;
-    animation-direction: reverse;
-    animation-timing-function: linear;
-    animation-delay: none;
-    position: relative;
-}
-a{
- background-color: transparent;
-font-weight: bolder;
-color:darkcyan;
-text-decoration: none;
-font-family: 'Bruno Ace SC', cursive;
-padding-top: 20%;
-}
-a:hover{
-    color: white;
-    text-shadow: 10px;
-}
-.footer{
-    width: 100%;
-    left: 0;
-    background-image:url(../images/icons/dark\ image.jpg);
-    bottom: 0;
-    position: fixed;
-    font-weight: bolder;
-    color: white;
-    height: 50px;
-}
-@keyframes move{
-    from{
-        transform: translateX(100%);
-    }
-    to{
-        transform: translateX(-100%);
-    }
-}
-.moving{
-    animation-name: move;
-    animation-iteration-count: infinite;
-    animation-duration: 15s;
-    animation-direction: reverse;
-    font-size: large;
-    animation-timing-function: cubic-bezier(1, 1, 1, 1);
-}
-#Me{
-    color: darkcyan;
+#para {
+  box-shadow: 5px 4px 6px 5px darkcyan;
 }
 
-p{
-    font-weight: bolder;
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  padding-top: 25%;
+  width: 33, 33%;
+  padding: auto;
+  word-spacing: 20px;
+  list-style-type: none;
+}
+.nav-links {
+  padding: 10px 10px;
+  text-decoration: double;
+  font: bold;
+  position: sticky;
+  z-index: 0;
+}
+.nav-links {
+  background-color: transparent;
+  color: w;
+  animation-name: stretch;
+  animation-duration: 3s;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+  animation-delay: none;
+  position: relative;
+}
+a {
+  background-color: transparent;
+  font-weight: bolder;
+  color: darkcyan;
+  text-decoration: none;
+  font-family: "Bruno Ace SC", cursive;
+  padding-top: 20%;
+}
+a:hover {
+  color: white;
+  text-shadow: 10px;
+}
+.footer {
+  width: 100%;
+  left: 0;
+  background-image: url(../images/icons/dark\ image.jpg);
+  bottom: 0;
+  position: fixed;
+  font-weight: bolder;
+  color: white;
+  height: 50px;
+}
+@keyframes move {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.moving {
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-duration: 15s;
+  animation-direction: reverse;
+  font-size: large;
+  animation-timing-function: cubic-bezier(1, 1, 1, 1);
+}
+#Me {
+  color: darkcyan;
 }
 
-#facebook{
-    transform: scale(1) !important;
-    transform-style: preserve-3d;
+p {
+  font-weight: bolder;
 }
-#facebook:hover{
-    transform: scale(1.3) !important;
+
+#facebook {
+  transform: scale(1) !important;
+  transform-style: preserve-3d;
 }
-.twitter{
-    transform: scale(1);
+#facebook:hover {
+  transform: scale(1.3) !important;
 }
-.twitter:hover{
-    transform: scale(1.3);
+.twitter {
+  transform: scale(1);
 }
-.github{
-    transform: scale(1);
+.twitter:hover {
+  transform: scale(1.3);
+}
+.github {
+  transform: scale(1);
 }
 
 html,
-body{
-    overflow-x:hidden;
+body {
+  overflow-x: hidden;
 }
-.github:hover{
-    transform: scale(1.3)
-    ;
+.github:hover {
+  transform: scale(1.3);
 }
-.nav-link{
-    color: darkcyan;
+.nav-link {
+  color: darkcyan;
 }
-.nav-link active{
-    color: darkcyan;
+.nav-link active {
+  color: darkcyan;
 }
 
 .flip-card {
-    background-color: transparent;
-    width: 400px;
-    height: 400px;
-    padding-top: 10px;
-    padding-left: 50px;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px white;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-back {
-    background-color: transparent;
-    color: black;
-    transform: rotateY(180deg);
-    font-family:'Bruno Ace SC', cursive;
-    font-size: large; 
-    text-align: left;
-  }
-  #Testimonials img {
-    height: 185px;
-  }
-  #Testimonials .card-body {
-    height: 300px;
-    overflow: hidden;
-  }
-  #Testimonials .card-body:hover {
-    overflow-y: scroll;
-  }
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
 
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px white;
+}
 
-  .About{
-    font-size: large;
-    padding-top: 10%;
-    text-align: center;
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
 }
-.col{
-    border: solid white;
-    border-bottom: transparent;
-    font-family:'Bruno Ace SC', cursive;
-    font-size: large; 
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
-h3{
-    color: darkcyan;
+
+.flip-card-back {
+  background-color: transparent;
+  color: black;
+  transform: rotateY(180deg);
+  font-family: "Bruno Ace SC", cursive;
+  font-size: large;
+  text-align: left;
 }
-h2{
-    font-weight: bolder;
-    font-family:'Bruno Ace SC', cursive;
-    color: darkcyan;
-    text-align: center;
+#Testimonials img {
+  height: 185px;
 }
-.Education{
-    font-weight: none;
+#Testimonials .card-body {
+  height: 300px;
+  overflow: hidden;
 }
-.col-2{
-    border: white;
-    text-align: center;
+#Testimonials .card-body:hover {
+  overflow-y: scroll;
 }
-.work{
-    padding-left: 50%;
+
+.About {
+  font-size: large;
+  padding-top: 10%;
+  text-align: center;
 }
-.exp{
-    padding-left: 50%;
-    font-size: large;
+/* .col {
+  border: solid white;
+  border-bottom: transparent;
+  font-family: "Bruno Ace SC", cursive;
+  font-size: large;
+} */
+h3 {
+  color: darkcyan;
 }
-#hov{
-    animation-name: shake;
-    animation-iteration-count: infinite;
-    position: relative;
-    box-shadow: 1px 2px 2px 1px;
+h2 {
+  font-weight: bolder;
+  font-family: "Bruno Ace SC", cursive;
+  color: darkcyan;
+  text-align: center;
+}
+.Education {
+  font-weight: none;
+}
+.col-2 {
+  border: white;
+  text-align: center;
+}
+.work {
+  padding-left: 50%;
+}
+.exp {
+  padding-left: 50%;
+  font-size: large;
+}
+#hov {
+  animation-name: shake;
+  animation-iteration-count: infinite;
+  position: relative;
+  box-shadow: 1px 2px 2px 1px;
 }
 @keyframes shake {
-    0%{left:0px;top:0px}
-    25%{left:200px;top:0px}
-    100%{left: 0px;top: 0px;}
-    
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }
 .flip-card-3 {
-    background-color: transparent;
-    width: 500px;
-    height: 100px;
-    padding-top: 10px;
+  background-color: transparent;
+  width: 500px;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.flip-card-3-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 white;
+}
+
+.flip-card-3:hover .flip-card-3-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-3-front,
+.flip-card-3-back {
+  position: absolute;
+  width: 500px;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-3-front {
+  background-color: transparent;
+  color: black;
+}
+
+.flip-card-3-back {
+  background-color: transparent;
+  color: black;
+  transform: rotateY(180deg);
+  font-family: "Bruno Ace SC", cursive;
+  font-size: large;
+  text-align: left;
+}
+.comps {
+  color: black;
+  font-size: large;
+  /* display: flex;
+  gap: 20%; */
+  padding: 70px;
+  background-color: darkcyan;
+}
+#About {
+  min-height: 600px;
+}
+.HTML {
+  color: white;
+  font-family: "Bruno Ace SC", cursive;
+}
+.CSS {
+  color: white;
+  font-family: "Bruno Ace SC", cursive;
+}
+.JS {
+  color: white;
+  font-family: "Bruno Ace SC", cursive;
+}
+.Projects {
+  text-align: center;
+  padding-top: 5%;
+}
+.cards {
+  display: flex;
+  padding-top: 10%;
+  padding: 100px;
+  gap: 4%;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 16px;
+  border: 5px solid darkcyan;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+  background-color: white;
+  color: black;
+  border: solid darkcyan;
+}
+input[type="submit"] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Bruno Ace SC", cursive;
+}
+input[type="submit"]:hover {
+  background-color: darkcyan;
+  border-radius: 50%;
+  color: white;
+}
+textarea {
+  height: 200px;
+}
+label {
+  color: white;
+}
+.contactForm {
+  border-radius: 30px;
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  border: solid darkcyan;
+  color: white;
+  box-shadow: 2px 3px 4px 3px darkcyan;
+}
+#card {
+  margin: auto;
+  width: 100%;
+}
+#card-2 {
+  margin: auto;
+  width: 100%;
+}
+#card-3 {
+  margin: auto;
+  width: 100%;
+}
+.carousel .card {
+  width: 90%;
+}
+#Center {
+  text-align: center;
+}
+@media only screen and (max-width: 760px) {
+  .Landing {
+    padding: 20px;
+    text-align: center;
   }
-  
-  .flip-card-3-inner {
-    position: relative;
+  .Landing h1 {
+    font-size: 28px;
+  }
+  .Landing span {
+    font-size: 16px;
+  }
+  .Landing p {
+    font-size: 13px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+  .social-icons a {
+    margin: 0 10px;
+  }
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  #About .col-lg-5 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #About .flip-card {
+    margin-right: 100%;
+    margin-right: auto;
+    width: 250px;
+    height: 300px;
+    box-shadow: none;
+  }
+  #About .flip-card-inner {
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
-  
-  .flip-card-3:hover .flip-card-3-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-3-front, .flip-card-3-back {
+  #About .flip-card-front,
+  #About .flip-card-back {
     position: absolute;
-    width: 500px;
+    width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  
-  .flip-card-3-front {
-    background-color:transparent;
+  #About .flip-card-front {
+    background-color: #bbb;
     color: black;
+    font-size: 13px;
   }
-  
-  .flip-card-3-back {
-    background-color: transparent;
+  #About .flip-card-back {
+    background-color: white;
     color: black;
     transform: rotateY(180deg);
-    font-family:'Bruno Ace SC', cursive;
-    font-size: large; 
-    text-align: left;
-  }  
-.comps{
-    color: black;
-    font-size: large;
-    height: 5px;
-    display: flex;
-    gap: 20%;
-    padding-bottom:14%;
-    background-color:darkcyan;
-}
-#About{
-    height: 600px;
-
-}
-.HTML{
-    color: white;
-    font-family:'Bruno Ace SC', cursive;
-}
-.CSS{
-    color: white;
-    font-family:'Bruno Ace SC', cursive ;
-}
-.JS{
-    color: white;
-    font-family: 'Bruno Ace SC', cursive;
-}
-.Projects{
-    text-align: center;
-    padding-top: 5%;
-}
-.cards{
-    display: flex;
-    padding-top: 10%;
-    padding: 100px;
-    gap: 4%;
-}
-input[type=text], select, textarea {
+    font-size: 13px;
+  }
+  #About .flip-card-3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 400px;
+  }
+  #About .flip-card-3-inner {
     width: 100%;
-    padding: 16px;
-    border: 5px solid darkcyan ;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: none;
-    background-color:white;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  #About .flip-card-3-front,
+  #About .flip-card-3-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  #About .flip-card-3-front {
+    background-color: #bbb;
     color: black;
-    border: solid darkcyan;
-
-}
-input[type=submit] {
+    font-size: 10px;
+  }
+  #About .flip-card-3-back {
     background-color: white;
-    color:black;
-    padding: 12px 20px;
-    border:none;
-    border-radius: 20px;
-    cursor: pointer;
-    width: 100%;
-    font-family: 'Bruno Ace SC', cursive;
-
-}
-input[type=submit]:hover {
-    background-color: darkcyan;
-    border-radius: 50%;
-    color: white;
-}
-textarea {
-    height: 200px;
-}
-label{
-    color: white;
-}
-.contactForm{
-    border-radius: 30px;
-    background-color:white;
-    padding: 20px;
-    width: 500px;
-    margin: 50px;
+    color: black;
+    transform: rotateY(180deg);
+    font-size: 12px;
+  }
+  #About p {
+    font-size: 15px;
+  }
+  /* .comps {
     display: flex;
-    margin-left: 35%;
-    border: solid darkcyan;
-    color: white;
-    box-shadow: 2px 3px 4px 3px darkcyan;
-}
-#card{
-    margin-left: 450px;
-}
-#card-2{
-    margin-left: 450px;
-}
-#card-3{
-    margin-left: 450px;
-}
-#Center{
-    text-align: center;
-}
-@media only screen and (max-width: 700px){
-    .Landing {
-        padding: 20px;
-        text-align: center;
-    }
-    .Landing h1 {
-        font-size: 28px;
-    }
-    .Landing span {
-        font-size: 16px;
-    }
-    .Landing p {
-        font-size: 13px;
-    }
-    .social-icons {
-        display: flex;
-        justify-content: center;
-        width: auto;
-    }
-    .social-icons a {
-        margin: 0 10px;
-    }
-    .social-icons img {
-        width: 40px;
-        height: 40px;
-    }
-    #About .col-lg-5 {
-        width: 100%;
-        margin-bottom: 20px;
-      }
-      #About .flip-card {
-        margin-right: 100%;
-        margin-right: auto;
-        width: 250px;
-        height: 300px;
-        padding-right: auto;
-        box-shadow: none;
-      }
-      #About .flip-card-inner {
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      }
-      #About .flip-card-front, #About .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-      }
-      #About .flip-card-front {
-        background-color: #bbb;
-        color: black;
-        font-size: 13px;
-      }
-      #About .flip-card-back {
-        background-color: white;
-        color: black;
-        transform: rotateY(180deg);
-        font-size: 13px;
-      }
-      #About .flip-card-3 {
-        margin-left: auto;
-        margin-right: auto;
-        width: 250px;
-        height: 400px;
-      }
-      #About .flip-card-3-inner {
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      }
-      #About .flip-card-3-front, #About .flip-card-3-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-      }
-      #About .flip-card-3-front {
-        background-color: #bbb;
-        color: black;
-        font-size: 10px;
-      }
-      #About .flip-card-3-back {
-        background-color: white;
-        color: black;
-        transform: rotateY(180deg);
-        font-size: 12px;
-      }
-      #About p{
-        font-size: 15px;
-      }
-      .comps {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        bottom: 90%;
-      }
-      .comps > div {
-        margin-bottom: 1rem;
-        display: flex;
-        justify-content: center;
-      }
-      #hyper{
-        width: 50px;
-        height: 50px;
+    flex-direction: column;
+    align-items: center;
+    bottom: 90%;
+  } */
+  /* .comps > div {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  } */
+  /* #hyper {
+    width: 50px;
+    height: 50px;
+  } */
+  /* .comps .progress {
+    width: 100%;
+  } */
+  /* .comps {
 
-      }
-      .comps .progress {
-        width: 100%;
-      }
-      .comps {
-        display: flex;
-        align-items: center;
-        margin-top: 400px;
-      }
-      .comps > div {
-        margin-bottom: 1rem;
-        width: 5px;
-        height: 5px;
-      }
-      .comps .progress {
-        width: 100%;
-      }
-      .comps
-      #contact {
-        text-align: center;
-      }
-      .contactForm {
-        width: 90%;
-        margin: 0 auto;
-      }
-      form {
-        display: flex;
-        flex-direction: column;
-      }
-      label, input, textarea {
-        width: 100%;
-        margin: 10px 0;
-      }
-      input[type="submit"] {
-        margin: 20px auto;
-      }
+    margin-top: 400px;
+  }
+   */
+  .comps > div {
+    width: 100%;
+    height: 100%;
+  }
+ .comps .progress {
+    width: 100%;
+  } 
+  /* .comps #contact {
+    text-align: center;
+  } */
+  .contactForm {
+    width: 90%;
+    margin: 0 auto;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  label,
+  input,
+  textarea {
+    width: 100%;
+    margin: 10px 0;
+  }
+  input[type="submit"] {
+    margin: 20px auto;
+  }
 }
